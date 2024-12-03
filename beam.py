@@ -213,5 +213,5 @@ if __name__=='__main__':
     train_loader = DataLoader(train_dataset, batch_size=10, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=10)
 
-    train(model, train_loader, val_loader, num_epochs=50)
+    train(model, train_loader, val_loader, num_epochs=20)
 
