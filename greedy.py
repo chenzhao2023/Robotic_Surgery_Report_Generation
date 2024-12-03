@@ -234,4 +234,4 @@ if __name__=='__main__':
     model = GraphToCaptionModel(gnn, 'bert-base-uncased').to(device)
 
     # Train the model
-    train(model, train_loader, val_loader, num_epochs=50)
+    train(model, train_loader, val_loader, num_epochs=20)
